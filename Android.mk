@@ -24,7 +24,7 @@ LOCAL_MODULE_RELATIVE_PATH := hw
 
 LOCAL_SHARED_LIBRARIES := liblog
 
-LOCAL_MODULE := lights.android_ia
+LOCAL_MODULE := lights.project-celadon
 
 LOCAL_MODULE_TAGS := optional
 
