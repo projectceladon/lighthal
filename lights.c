@@ -16,7 +16,8 @@
 
 #define LOG_TAG "lights"
 
-#include <cutils/log.h>
+#include <unistd.h>
+#include <log/log.h>
 #include <cutils/properties.h>
 #include <stdlib.h>
 #include <string.h>

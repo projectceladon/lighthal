@@ -22,7 +22,9 @@ LOCAL_SRC_FILES := lights.c
 LOCAL_PRELINK_MODULE := false
 LOCAL_MODULE_RELATIVE_PATH := hw
 
-LOCAL_SHARED_LIBRARIES := liblog
+LOCAL_SHARED_LIBRARIES := liblog libcutils
+LOCAL_HEADER_LIBRARIES := libutils_headers
+LOCAL_HEADER_LIBRARIES += libhardware_headers
 
 LOCAL_MODULE := lights.project-celadon
 
